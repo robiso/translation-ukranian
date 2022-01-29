@@ -1,13 +1,13 @@
 {
     "version": 1,
     "plugins": {
-        "translation-russian": {
-            "name": "Translation Russian",
-            "repo": "https://github.com/robiso/translation-russian/tree/master",
-            "zip": "https://github.com/robiso/translation-russian/archive/master.zip",
-            "summary": "Russian language pack. Пакет русской локализации.",
+        "translation-ukranian": {
+            "name": "Translation ukranain",
+            "repo": "https://github.com/robiso/translation-ukranian/tree/main",
+            "zip": "https://github.com/robiso/translation-ukranian/archive/main.zip",
+            "summary": "Ukranian language pack.",
             "version": "3.1.2",
-            "image": "https://raw.githubusercontent.com/robiso/translation-russian/master/preview.jpg"
+            "image": "https://raw.githubusercontent.com/robiso/translation-ukranian/main/preview.jpg"
         }
     }
 }
