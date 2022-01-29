@@ -3,7 +3,7 @@
 <p align="center">Ukranian translations for WonderCMS</p>
 <br><br>
 
-Ukranian translations Author: RarogCmex
+Ukranian translations Author: Oleksandr Sydoruk
 
 This plugin adds Ukranian translations to the WonderCMS admin area, based on `https://github.com/robiso/translation-russian` (experimental version)
 
