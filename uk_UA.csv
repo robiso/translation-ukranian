@@ -1,0 +1,89 @@
+OVERLAYS
+    ">Saving","> Зберегти
+    ">Checking for updates",">Перевірка оновлень"
+
+
+BUTTONS
+    "> Settings",">Налаштування"
+
+
+MENU ITEMS
+    ">Current page",">Поточна сторінка"
+    ">Menu",">Меню"
+    ">Files",">Файли"
+    ">Themes",">Теми"
+    ">Plugins",">Плагіни"
+    ">Security",">Захист"
+
+
+CURRENT PAGE
+    ">Page title",">Заголовок сторінки"
+    ">Page keywords",">Ключові слова сторінки"
+    ">Page description",">Опис сторінки"
+    "> Delete page \((.*?)\)","> Видалити сторінку ($1)"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('Видалити $1?')"
+
+
+MENU
+    ">Website title",">Назва сайта"
+    ">Page to display on homepage",">Яка сторінка буде відображена головною"
+    ">visit",">Відкрити"
+    ">Add page","> Додати сторінку"
+
+
+FILES
+    ">Upload",">Відправити на сервер"
+    ">Delete files","> Видалити файли"
+
+
+THEMES AND PLUGINS
+    "> Check for updates","> Перевірка оновлень"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('Видалити $1?')"
+    ">Active",">Активна"
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активувати $1 тему?')"
+    "> Activate","> Активувати
+    "> More info","> Більше інформації"
+    "> Install","> Встановити"
+    ">Installed version:",">Встановлена версія:"
+    ">Custom repository",">Свій варіант репозиторія"
+    "Enter URL to custom repository","Введіть URL свого варіанта репозиторія"
+    "> Add", "> Додати"
+    "> Read more about custom repositories","> Докладніше про користувацькі сховища"
+
+
+SECURITY
+    ">Admin login URL","> URL для доступу адміна"
+    ">Save your login URL to log in to your website next time:",">Зберегти ваш URL для входу на сайт наступного разу:"
+    ">Password",">Пароль"
+    "Old password","Старий пароль"
+    "New password","Новий пароль"
+    "> Change password","> Змінити пароль"
+
+    "> How to restore backup","> Як відновити резервні копії?"
+    ">Improved security \(Apache only\)",">Додатковий захист (Працює тільки із Apache)"
+    ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Перенаправлення HTTPS, 30-денне кешування, iframe дозволені лише з того самого походження, запобігання перехопленню типу mime, суворіша політика щодо файлів cookie та реферерів."
+    ">ON \(warning: may break your website\)",">ВКЛЮЧИТИ (Увага: може зломати Ваш вебсайт!)"
+    ">OFF \(reset htaccess to default\)",">ВІДКЛЮЧИТИ (скинути htaccess файл до дефолтного)"
+    "> Read more before enabling","> Дізнатись більше передтим, як вмикати"
+    ">Backup",">Резервне копіювання"
+    "> Backup website","Зробити резервну копію сайта"
+    ">Last 5 logins",">Останніх 5 збережених входів"
+
+
+STATISTICS
+    ">Statistics",">Статистика"
+    ">Today",">Сьогодні"
+    ">This week",">Цього тижня"
+    ">Most popular page",">Найбільш популярна сторінка"
+    ">Pageviews last two weeks",">Перегляди за останні два тижня"
+    ">Sessions last two weeks",">Сесії за останні два тижня"
+    ">Sessions",">Сесії"
+    ">Pageviews",">Перегляди"
+
+
+FOOTER
+    ">News",">Новини"
+    ">Community",">Спільнота"
+    ">Docs",">Документація(англ.)"
+    ">Donate",">Підтримати розробника"
+    ">Shop\/Merch",">магазин"
