@@ -6,6 +6,7 @@
             "repo": "https://github.com/robiso/translation-ukranian/tree/main",
             "zip": "https://github.com/robiso/translation-ukranian/archive/main.zip",
             "summary": "Ukranian language pack.",
+            "group": "translation",
             "version": "3.1.2",
             "image": "https://raw.githubusercontent.com/robiso/translation-ukranian/main/preview.jpg"
         }
