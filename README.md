@@ -1,11 +1,11 @@
 <p align="center"><img src="preview.jpg" /></p>
 <h1 align="center">language-uk_UA</h1>
-<p align="center">Ukranian translations for WonderCMS</p>
+<p align="center">Ukrainian translations for WonderCMS</p>
 <br><br>
 
-Ukranian translations Author: Oleksandr Sydoruk
+Ukrainian translations Author: Oleksandr Sydoruk
 
-This plugin adds Ukranian translations to the WonderCMS admin area, based on `https://github.com/robiso/translation-russian` (experimental version)
+This plugin adds Ukrainian translations to the WonderCMS admin area, based on `https://github.com/robiso/translation-russian` (experimental version)
 
 
 ## How to use

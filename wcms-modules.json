@@ -2,10 +2,10 @@
     "version": 1,
     "plugins": {
         "translation-ukranian": {
-            "name": "Translation ukranain",
+            "name": "Translation Ukrainian",
             "repo": "https://github.com/robiso/translation-ukranian/tree/main",
             "zip": "https://github.com/robiso/translation-ukranian/archive/main.zip",
-            "summary": "Ukranian language pack.",
+            "summary": "Ukrainian language pack.",
             "group": "translation",
             "version": "3.1.4",
             "image": "https://raw.githubusercontent.com/robiso/translation-ukranian/main/preview.jpg"
