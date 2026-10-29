@@ -22,6 +22,7 @@ CURRENT PAGE
     ">Page description",">Опис сторінки"
     "> Delete page \((.*?)\)","> Видалити сторінку ($1)"
     "return confirm\('Delete (.*?)\?'\)","return confirm('Видалити $1?')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""Видалити $1?"""
 
 
 MENU
@@ -39,8 +40,10 @@ FILES
 THEMES AND PLUGINS
     "> Check for updates","> Перевірка оновлень"
     "return confirm\('Remove (.*?)\?'\)","return confirm('Видалити $1?')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""Видалити $1?"""
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активувати $1 тему?')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активувати $1 тему?"""
     "> Activate","> Активувати
     "> More info","> Більше інформації"
     "> Install","> Встановити"
