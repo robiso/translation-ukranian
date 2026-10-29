@@ -1,10 +1,11 @@
 OVERLAYS
-    ">Saving","> Зберегти
+    ">Saving","> Зберегти"
     ">Checking for updates",">Перевірка оновлень"
 
 
 BUTTONS
     "> Settings",">Налаштування"
+    "return confirm\('Log out\?'\)","return confirm('Вийти?')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title",">Назва сайта"
     ">Page to display on homepage",">Яка сторінка буде відображена головною"
     ">visit",">Відкрити"
+    "title=""Make page private \(only you see it while logged in\)""","title=""Зробити сторінку приватною (її бачите лише ви, поки ви увійшли в систему)"""
+    "title=""Make page public""","title=""Зробити сторінку публічною"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> приватна</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> публічна</a>"
     ">Add page","> Додати сторінку"
 
 
@@ -39,17 +44,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> Перевірка оновлень"
+    "title=""Remove this repository from the list""","title=""Прибрати цей репозиторій зі списку"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""Прибрати $1? Усе, що з нього встановлено, залишиться."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('Видалити $1?')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""Видалити $1?"""
     ">Active",">Активна"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('Активувати $1 тему?')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""Активувати $1 тему?"""
-    "> Activate","> Активувати
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""Вимкнути $1?"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Це плагін типу $1. Встановлення $2 вимкне $3. Продовжити?"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""Це плагін типу $1. Оновлення $2 залишить його увімкненим і вимкне $3. Продовжити?"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""Це плагін типу $1. Увімкнення $2 вимкне $3. Продовжити?"""
+    "> Activate","> Активувати"
     "> More info","> Більше інформації"
     "> Install","> Встановити"
     ">Installed version:",">Встановлена версія:"
     ">Custom repository",">Свій варіант репозиторія"
     "Enter URL to custom repository","Введіть URL свого варіанта репозиторія"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('Додавання невідомих модулів може бути ДУЖЕ небезпечним. Ви впевнені, що хочете продовжити?')"
     "> Add", "> Додати"
     "> Read more about custom repositories","> Докладніше про користувацькі сховища"
 
@@ -67,6 +79,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">Перенаправлення HTTPS, 30-денне кешування, iframe дозволені лише з того самого походження, запобігання перехопленню типу mime, суворіша політика щодо файлів cookie та реферерів."
     ">ON \(warning: may break your website\)",">ВКЛЮЧИТИ (Увага: може зломати Ваш вебсайт!)"
     ">OFF \(reset htaccess to default\)",">ВІДКЛЮЧИТИ (скинути htaccess файл до дефолтного)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('Ви впевнені? Це може зламати ваш сайт, якщо SSL налаштовано неправильно.')"
     "> Read more before enabling","> Дізнатись більше передтим, як вмикати"
     ">Backup",">Резервне копіювання"
     "> Backup website","Зробити резервну копію сайта"
